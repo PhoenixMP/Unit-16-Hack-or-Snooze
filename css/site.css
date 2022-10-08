@@ -37,7 +37,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-self: center;
-  background-color: #f6f6ef;
+  background-color: #b887b1;
 }
 
 .hidden {
@@ -64,6 +64,7 @@ form label {
   width: 3.5rem;
   text-align: right;
   margin-right: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 form input {
@@ -72,12 +73,12 @@ form input {
   border-radius: 2px;
   padding: 8px;
   width: 300px;
-  box-shadow: 0 0 3px 1px lightgray;
+  box-shadow: 0 0 3px 1px black;
 }
 
 form input:focus {
   outline: none;
-  box-shadow: 0 0 4px 1px darkgray;
+  box-shadow: 0 0 4px 1px black;
 }
 
 form > button {
@@ -87,8 +88,8 @@ form > button {
   border-radius: 4px;
   padding: 8px;
   font-size: 0.85rem;
-  background-color: lightslategray;
-  color: white;
+  background-color: rgb(126, 67, 111);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.15s;
 }
@@ -99,7 +100,7 @@ form > button:hover {
 
 form > hr {
   margin: 0;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(38, 39, 107);
 }
 
 .login-input label {

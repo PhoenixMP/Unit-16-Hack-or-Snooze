@@ -1,8 +1,15 @@
 /* Lists of stories */
 
 .stories-list {
-  margin: 20px 5px;
+  margin: 20px 1px;
 }
+
+body {
+  background-image: url("http://pm1.narvii.com/7867/61c20f4157bbbbe4d9c3362c73565d66f7627b80r1-720-776v2_uhq.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  background-size: cover
+ }
 
 button {
   background-color: rgb(121, 100, 100);
@@ -12,8 +19,9 @@ button {
 }
 
 .stories-list > li {
-  color: gray;
+  color: rgb(0, 0, 0);
   font-size: 0.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 10px 0;
 }
 
@@ -25,12 +33,14 @@ button {
 
 .favorite-symbol {
   font-size: 20px;
-  cursor: pointer
+  cursor: pointer;
+  color: transparent;
+  text-shadow: 0 0 0 rgb(255,255,255)
 }
 
 .favorited {  
   color: transparent;
-  text-shadow: 0 0 0 red
+  text-shadow: 0 0 0 rgb(255, 0, 212)
 }
 
 
@@ -59,7 +69,7 @@ button {
 }
 
 ol div {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   display: inline-block;
   text-align: right;

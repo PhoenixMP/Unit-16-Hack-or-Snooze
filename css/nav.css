@@ -2,18 +2,24 @@
 
 nav {
   display: flex;
-  background-color: #ff6600;
+  background-color: #eb4b95;
   align-items: center;
   padding: 5px 20px;
   border-radius: 3px 3px 0 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .navbar-brand {
   font-weight: bold;
 }
 
+#nav-all{
+  font-size: 30px;
+}
+
 .nav-link {
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin: 0 3px;
 }
 
